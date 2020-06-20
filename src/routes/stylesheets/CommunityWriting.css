@@ -1,0 +1,43 @@
+.writing_inner {
+  width: 1100px;
+  margin: 20px auto;
+}
+
+.writing_inner .header {
+  margin-bottom: 10px;
+}
+
+.writing_inner .title {
+  width: 870px;
+  padding: 10px;
+  height: 48px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  font-size: 32px;
+  display: inline-block;
+}
+
+.writing_inner select {
+  float: right;
+  width: 200px;
+  height: 70px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  outline: none;
+}
+
+.ck-editor__editable_inline {
+  min-height: 500px;
+}
+
+.writing_inner .ck-editor__editable_inline ul,
+.writing_inner .ck-editor__editable_inline ol {
+  padding-left: 40px;
+}
+
+.writing_inner .ck-editor__editable_inline a {
+  text-decoration: underline;
+  color: slateblue;
+}

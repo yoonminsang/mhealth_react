@@ -1,0 +1,47 @@
+.community .board {
+  margin-top: 30px;
+}
+
+.community .board .header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.community .board .header .title {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.community .board .header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.community .board .content {
+  margin: 30px 0 50px 0;
+}
+
+.community .board .board_recommend {
+  text-align: center;
+  margin: 0 auto 50px;
+  display: table;
+}
+
+.community .board .board_recommend form {
+  display: inline-block;
+}
+
+.community .board .board_recommend .bt2 {
+  margin-right: 5px;
+}
+
+.community .board .board_button .fr form {
+  display: inline-block;
+}
+
+.community .board .board_button::after {
+  content: "";
+  display: block;
+  clear: both;
+}

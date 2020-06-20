@@ -1,0 +1,14 @@
+.ck-editor__editable_inline ul,
+.ck-editor__editable_inline ol {
+  padding-left: 40px;
+}
+
+/* .ck-editor__editable_inline {
+  width: 1000px;
+  min-height: 400px;
+} */
+
+.ck-editor__editable_inline a {
+  text-decoration: underline;
+  color: slateblue;
+}

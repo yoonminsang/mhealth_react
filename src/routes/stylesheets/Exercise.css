@@ -1,0 +1,19 @@
+.exercise {
+  width: 1100px;
+  margin: 0 auto;
+  /* overflow: hidden; */
+}
+
+.exercise h2 {
+  font-size: 30px;
+  margin: 40px 0 5px;
+}
+
+.exercise p {
+  font-size: 18px;
+}
+
+.exercise h3 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+}

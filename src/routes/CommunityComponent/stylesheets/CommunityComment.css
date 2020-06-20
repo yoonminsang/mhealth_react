@@ -1,0 +1,12 @@
+.community .comment {
+  margin-top: 50px;
+}
+
+.community .comment textarea {
+  width: 1080px;
+  height: 150px;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+  padding: 10px;
+  resize: none;
+}

@@ -1,0 +1,58 @@
+.community .board_list {
+  margin-top: 100px;
+}
+
+.community .board_list table {
+  border: 0;
+  width: 100%;
+  border-top: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.community .board_list table tr {
+  height: 48px;
+}
+
+.community .board_list table tr td {
+  border: 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.community .board_list table tr:first-child td {
+  border-top: 0;
+}
+
+.community .board_list table tr:last-child td {
+  border-bottom: 0;
+}
+
+.community .board_list table tr .title {
+  padding-left: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.community .board_list table tr .user_displayName,
+.community .board_list table tr .time,
+.community .board_list table tr .view {
+  text-align: center;
+  font-size: 15px;
+}
+
+.community .board_list .pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.community .board_list .pagination strong {
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: underline;
+  color: #f60;
+}
+
+.community .board_list .pagination a {
+  font-size: 20px;
+  padding: 10px;
+  color: #333;
+}

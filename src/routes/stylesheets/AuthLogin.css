@@ -1,0 +1,67 @@
+.login_form {
+  position: relative;
+  width: 440px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.login_form h2 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.login_form .email {
+  width: 433px;
+  height: 55px;
+  padding: 6px 0 0 7px;
+  background: url(https://ssl.nx.com/S2/p3/login/2016/set_page.gif) no-repeat 0 0;
+}
+
+.login_form .password {
+  width: 433px;
+  height: 55px;
+  padding: 6px 0 0 7px;
+  margin-top: 1px;
+  background: url(https://ssl.nx.com/S2/p3/login/2016/set_page.gif) no-repeat 0 0;
+}
+
+.login_form .input {
+  width: 402px;
+  padding: 12px 0 9px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+  text-indent: 2px;
+}
+
+.login_form .input::placeholder {
+  font-weight: 400;
+}
+
+.login_form .btn_login {
+  width: 440px;
+  height: 58px;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #4160b8;
+  background-color: #486bcd;
+}
+
+.loginMenu {
+  position: relative;
+  padding: 25px 0 37px;
+  color: #d9d9da;
+}
+
+.loginMenu a {
+  padding: 0 5px;
+  color: #777;
+  text-decoration: none;
+}
+
+.loginMenu a:first-child {
+  padding-left: 0;
+}

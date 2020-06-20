@@ -1,0 +1,127 @@
+/* li {
+  list-style: none;
+} */
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+button,
+select {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+/* body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+} */
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.bt {
+  width: 100px;
+  height: 45px;
+  line-height: 45px;
+  border: 1px solid;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bt2 {
+  width: 130px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fl .bt,
+.fl .bt2 {
+  margin-right: 5px;
+}
+
+.fr .bt,
+.fl .bt2 {
+  margin-left: 5px;
+}
+
+.gray {
+  background: #666;
+  border-color: #444;
+  color: #fff;
+}
+
+.blue {
+  background: #4a57a8;
+  border-color: #3c4790;
+  color: #fff;
+}
+
+.white {
+  background: #fff;
+  border-color: #ccc;
+  color: #666;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
